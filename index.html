@@ -16,6 +16,7 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | FAQ accordion</title>
   </head>
@@ -23,7 +24,7 @@
   <body>
     <main class="wrapper">
       <section aria-labelledby="faqs" class="accordion">
-        <div class="accordion-header">
+        <div class="accordion__header">
           <img src="assets/images/icon-star.svg" alt="" />
           <h1 id="faqs">FAQs</h1>
         </div>
@@ -136,5 +137,13 @@
         <a href="https://github.com/a-woodworth">a-woodworth</a>.
       </p>
     </footer>
+    <noscript>
+      <!-- Show all content is no JS -->
+      <style>
+        [data-state='no-js'] .accordion__content {
+          display: block;
+        }
+      </style>
+    </noscript>
   </body>
 </html>
