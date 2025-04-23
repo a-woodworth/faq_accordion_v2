@@ -103,7 +103,7 @@ h1 {
   box-shadow: var(--shadow);
   margin-block-start: var(--spacing-800);
   margin-inline: auto;
-  max-width: 20.5rem;
+  max-width: 17.5rem;
   padding-block: var(--spacing-150);
   padding-inline: var(--spacing-150);
 }
@@ -158,30 +158,31 @@ h1 {
   display: none;
 }
 
-.js-disclosure__button {
+.accordion__button {
   all: inherit;
   width: 100%;
 }
 
-.js-disclosure__button:focus {
+.accordion__button:focus-visible {
+  color: var(--purple-500);
   outline: 3px solid var(--purple-500);
   outline-offset: 3px;
 }
 
-.js-disclosure__button:hover {
+.accordion__button:hover {
   color: var(--purple-500);
   cursor: pointer;
 }
 
-.js-disclosure__button::after {
+.accordion__button::after {
   padding-inline-start: var(--spacing-100);
 }
 
-.js-disclosure__button[aria-expanded='false']::after {
+.accordion__button[aria-expanded='false']::after {
   content: url('assets/images/icon-plus.svg');
 }
 
-.js-disclosure__button[aria-expanded='true']::after {
+.accordion__button[aria-expanded='true']::after {
   content: url('assets/images/icon-minus.svg');
 }
 

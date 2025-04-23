@@ -29,22 +29,15 @@
           <h1 id="faqs">FAQs</h1>
         </div>
         <div class="accordion-wrapper">
-          <div
-            class="accordion__group js-disclosure"
-            data-state="no-js"
-          >
-            <h2 class="accordion__title">
-              <button
-                aria-expanded="true"
-                aria-controls="faq-panel-1"
-                class="js-disclosure__button"
-                id="faq-1"
-                type="button"
-              >
-                What is Frontend Mentor, and how will it help me?
-              </button>
+          <div class="accordion__group">
+            <h2 class="accordion__title" id="faq-1">
+              What is Frontend Mentor, and how will it help me?
             </h2>
-            <div id="faq-panel-1" class="accordion__content">
+            <div
+              aria-labelledby="faq-1"
+              class="accordion__content"
+              role="region"
+            >
               <p>
                 Frontend Mentor offers realistic coding challenges to
                 help developers improve their frontend coding skills
@@ -54,22 +47,15 @@
               </p>
             </div>
           </div>
-          <div
-            class="accordion__group js-disclosure"
-            data-state="no-js"
-          >
-            <h2 class="accordion__title">
-              <button
-                aria-expanded="false"
-                aria-controls="faq-panel-2"
-                class="js-disclosure__button"
-                id="faq-2"
-                type="button"
-              >
-                Is Frontend Mentor free?
-              </button>
+          <div class="accordion__group">
+            <h2 class="accordion__title" id="faq-2">
+              Is Frontend Mentor free?
             </h2>
-            <div id="faq-panel-2" class="accordion__content">
+            <div
+              aria-labelledby="faq-2"
+              class="accordion__content"
+              role="region"
+            >
               <p>
                 Yes, Frontend Mentor offers both free and premium
                 coding challenges, with the free option providing
@@ -78,22 +64,15 @@
               </p>
             </div>
           </div>
-          <div
-            class="accordion__group js-disclosure"
-            data-state="no-js"
-          >
-            <h2 class="accordion__title">
-              <button
-                aria-expanded="false"
-                aria-controls="faq-panel-3"
-                class="js-disclosure__button"
-                id="faq-3"
-                type="button"
-              >
-                Can I use Frontend Mentor projects in my portfolio?
-              </button>
+          <div class="accordion__group">
+            <h2 class="accordion__title" id="faq-3">
+              Can I use Frontend Mentor projects in my portfolio?
             </h2>
-            <div id="faq-panel-3" class="accordion__content">
+            <div
+              aria-labelledby="faq-3"
+              class="accordion__content"
+              role="region"
+            >
               <p>
                 Yes, you can use projects completed on Frontend Mentor
                 in your portfolio. It's an excellent way to showcase
@@ -101,22 +80,15 @@
               </p>
             </div>
           </div>
-          <div
-            class="accordion__group js-disclosure"
-            data-state="no-js"
-          >
-            <h2 class="accordion__title">
-              <button
-                aria-expanded="false"
-                aria-controls="faq-panel-4"
-                class="js-disclosure__button"
-                id="faq-4"
-                type="button"
-              >
-                How can I get help if I'm stuck on a challenge?
-              </button>
+          <div class="accordion__group">
+            <h2 class="accordion__title" id="faq-4">
+              How can I get help if I'm stuck on a challenge?
             </h2>
-            <div id="faq-panel-4" class="accordion__content">
+            <div
+              aria-labelledby="faq-4"
+              class="accordion__content"
+              role="region"
+            >
               <p>
                 The best place to get help is inside Frontend Mentor's
                 Discord community. There's a help channel where you
@@ -137,13 +109,6 @@
         <a href="https://github.com/a-woodworth">a-woodworth</a>.
       </p>
     </footer>
-    <noscript>
-      <!-- Show all content is no JS -->
-      <style>
-        [data-state='no-js'] .accordion__content {
-          display: block;
-        }
-      </style>
-    </noscript>
+    <script src="app.js"></script>
   </body>
 </html>
