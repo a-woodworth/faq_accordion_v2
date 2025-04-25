@@ -222,7 +222,7 @@ h1 {
   .accordion {
     border-radius: var(--radius-m);
     margin-block-start: var(--spacing-1000);
-    max-width: 32rem;
+    max-width: 32.5rem;
     padding-block: var(--spacing-300);
     padding-inline: var(--spacing-300);
   }
