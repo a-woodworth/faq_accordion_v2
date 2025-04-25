@@ -49,4 +49,4 @@ Users should be able to:
 
 ### Native HTML solution
 
-Interested in how I built this accordion using the <details> and <summary> tags? View my [HTML solution](https://github.com/a-woodworth/faq_accordion) here.
+Interested in how I built this accordion using the `<details>` and `<summary>` tags? View my [HTML solution](https://github.com/a-woodworth/faq_accordion) here.
